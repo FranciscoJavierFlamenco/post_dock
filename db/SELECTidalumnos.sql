@@ -1,4 +1,4 @@
-SELECT idalumnos,
+SELECT id,
        nombre,
        edad
 FROM public.alumnos
