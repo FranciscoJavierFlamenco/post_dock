@@ -1,0 +1,6 @@
+CREATE TABLE clientes (
+  id SERIAL PRIMARY KEY,
+  nombre TEXT NOT NULL,
+  correo TEXT UNIQUE,
+  fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
